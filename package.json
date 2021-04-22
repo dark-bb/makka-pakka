@@ -11,12 +11,21 @@
     "email": "326943819@qq.com"
   },
   "license": "ISC",
+  "keywords": [
+    "eslint",
+    "prettier",
+    "lint-staged",
+    "makka-pakka",
+    "dark-bb"
+  ],
   "files": [
-    "src/**/*"
+    "bin",
+    "assets"
   ],
   "scripts": {
     "testing": "node bin/testing.js",
-    "postinstall": "node bin/index.js"
+    "postinstall": "node bin/index.js",
+    "publish": "npm publish --access public"
   },
   "devDependencies": {
     "@types/node": "^14.14.41",
