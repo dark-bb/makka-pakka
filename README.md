@@ -1,5 +1,5 @@
 # 简介
-通过安装本插件，自动配置eslint+prettier+lint-staged工作流，保障在pre-commit时统一化代码
+在任意前端项目中安装本插件，即可自动集成eslint+prettier，并通过lint-staged进行commit时的代码校验
 
 ## 安装
 ```bash
