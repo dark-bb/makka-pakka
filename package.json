@@ -11,6 +11,9 @@
     "email": "326943819@qq.com"
   },
   "license": "ISC",
+  "engines": {
+    "node": "^12.12.1"
+  },
   "keywords": [
     "eslint",
     "prettier",
@@ -51,5 +54,8 @@
     "*.{js,vue,json,ts}": [
       "eslint --fix"
     ]
+  },
+  "dependencies": {
+    "cross-spawn": "^7.0.3"
   }
 }
