@@ -3,7 +3,7 @@
 
 ## 安装
 ```bash
-npm i @dark-bb/makka-pakka
+npm i @dark-bb/makka-pakka -D
 ```
 
 ## 支持文件
