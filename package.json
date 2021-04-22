@@ -1,15 +1,22 @@
 {
-  "name": "frontend-linter-construct",
+  "name": "@dark-bb/makka-pakka",
   "version": "1.0.0",
   "description": "为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格",
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://gitee.com/dark-bb/frontend-linter-construct.git"
   },
   "author": "林逸舟<326943819@qq.com>",
   "license": "ISC",
+  "files": [
+    "src/**/*"
+  ],
+  "scripts": {
+    "testing": "node bin/testing.js",
+    "postinstall": "node bin/index.js"
+  },
   "devDependencies": {
+    "@types/node": "^14.14.41",
     "@typescript-eslint/eslint-plugin": "^4.22.0",
     "@typescript-eslint/parser": "^4.22.0",
     "eslint": "^7.24.0",
