@@ -1,6 +1,6 @@
 {
   "name": "@dark-bb/makka-pakka",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格",
   "repository": {
     "type": "git",
@@ -11,9 +11,6 @@
     "email": "326943819@qq.com"
   },
   "license": "ISC",
-  "engines": {
-    "node": "^12.12.1"
-  },
   "keywords": [
     "eslint",
     "prettier",
