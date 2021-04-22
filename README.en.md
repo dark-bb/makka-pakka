@@ -1,7 +1,7 @@
 # frontend-linter-construct
 
 #### Description
-为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格。
+为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格
 
 #### Software Architecture
 Software architecture description

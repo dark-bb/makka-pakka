@@ -1,7 +1,7 @@
 # frontend-linter-construct
 
 #### 介绍
-为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格。
+为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格
 
 #### 软件架构
 软件架构说明
