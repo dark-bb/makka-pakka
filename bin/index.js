@@ -29,7 +29,6 @@ package["lint-staged"] = {
 fs.writeFileSync("../../../package.json", JSON.stringify(package));
 
 const packageList = [
-  "@types/node",
   "@typescript-eslint/eslint-plugin",
   "@typescript-eslint/parser",
   "eslint",

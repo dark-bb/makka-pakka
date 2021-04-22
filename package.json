@@ -1,6 +1,6 @@
 {
   "name": "@dark-bb/makka-pakka",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "为前端项目自动构建在pre-commit时，利用eslint+prettier统一代码风格",
   "repository": {
     "type": "git",
